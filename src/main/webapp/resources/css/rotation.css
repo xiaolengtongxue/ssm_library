@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+.content{
+    position: relative;
+    width: 720px;
+    height: 410px;
+    margin: 10px auto;
+}
+ul.focusList{
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+}
+ul.focusList li{
+    width: 20px;
+    height: 20px;
+    background: #a1a7a8;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ul.focusList li.cur{
+    background: #3b3837;
+}
+ul.imgs li{
+    position: absolute;
+}
+ul.imgs li img{
+    width: 720px;
+    height: 410px;
+}
+.content .btn{
+    width: 45px;
+    height: 70px;
+    text-align: center;
+    line-height: 60px;
+    background: #4d4d4d;
+    opacity: .8;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+.btn.leftBtn{
+    top: 150px;
+}
+.btn.nextBtn{
+    right: 0;
+    top: 150px;
+}
